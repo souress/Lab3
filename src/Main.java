@@ -15,7 +15,8 @@ public class Main {
         unnamed2.buyStocks(5, office1);
         unnamed3.buyStocks(43, office1);
         office1.showBalance();
-        Shorty Miga = new Shorty(Locations.BANK, new CashBalance(office1.storage.getMoneyAmount(), 0), new BankBalance(0), "Miga");
+        Shorty Miga = new Shorty(Locations.BANK, new CashBalance(office1.storage.getMoneyAmount(), 0),
+                new BankBalance(0), "Miga");
         office1.storage.setMoneyAmount(0);
         Miga.putMoneyToBank();
     }
