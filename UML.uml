@@ -3,68 +3,153 @@
   <ID>JAVA</ID>
   <OriginalElement>Balance</OriginalElement>
   <nodes>
-    <node x="596.3331365604092" y="742.5">MoneyActions</node>
+    <node x="186.0000000000001" y="742.5">MoneyActions</node>
     <node x="0.0" y="753.5">BankBalance</node>
-    <node x="181.5232979142068" y="962.0">Shorty</node>
-    <node x="142.125" y="127.5">StatusActions</node>
-    <node x="311.33313656040923" y="742.5">StocksActions</node>
-    <node x="809.4323888232977" y="264.0">java.lang.Enum</node>
-    <node x="844.3331365604092" y="709.0">Locations</node>
-    <node x="203.95813656040923" y="0.0">Balance</node>
-    <node x="840.6972943722946" y="1386.0">Main</node>
-    <node x="381.33313656040923" y="127.0">CashBalance</node>
-    <node x="371.43238882329774" y="275.5">GiganticPlantSociety</node>
+    <node x="267.98940377804" y="932.0">Shorty</node>
+    <node x="302.42878787878794" y="127.5">StatusActions</node>
+    <node x="480.3914698937426" y="742.5">StocksActions</node>
+    <node x="813.9520857929947" y="264.0">java.lang.Enum</node>
+    <node x="853.5000000000001" y="709.0">Locations</node>
+    <node x="255.2500000000001" y="0.0">Balance</node>
+    <node x="845.5359307359308" y="1356.0">Main</node>
+    <node x="550.3914698937426" y="127.0">CashBalance</node>
+    <node x="537.9520857929947" y="275.5">GiganticPlantSociety</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Shorty" target="StocksActions">
-      <point x="59.27272727272731" y="-182.0" />
-      <point x="403.7960251869341" y="902.0" />
-      <point x="443.83313656040923" y="902.0" />
-      <point x="0.0" y="38.0" />
-    </edge>
-    <edge source="Shorty" target="StatusActions">
-      <point x="-88.90909090909082" y="-182.0" />
-      <point x="255.614207005116" y="912.0" />
-      <point x="187.625" y="912.0" />
-      <point x="187.625" y="244.0" />
-      <point x="167.625" y="244.0" />
-      <point x="-51.0" y="38.0" />
-    </edge>
-    <edge source="GiganticPlantSociety" target="StatusActions">
-      <point x="-78.66666666666669" y="-171.0" />
-      <point x="410.7657221566311" y="224.0" />
-      <point x="269.625" y="224.0" />
-      <point x="51.0" y="38.0" />
+    <edge source="StocksActions" target="GiganticPlantSociety">
+      <point x="0.0" y="-38.0" />
+      <point x="612.8914698937426" y="689.0" />
+      <point x="626.4520857929947" y="689.0" />
+      <point x="-29.5" y="171.0" />
     </edge>
     <edge source="CashBalance" target="Balance">
       <point x="-46.0" y="-38.5" />
-      <point x="427.33313656040923" y="107.0" />
-      <point x="299.58313656040923" y="107.0" />
+      <point x="596.3914698937426" y="107.0" />
+      <point x="350.8750000000001" y="107.0" />
       <point x="19.125" y="38.5" />
     </edge>
     <edge source="BankBalance" target="Balance">
       <point x="-41.25" y="-27.0" />
       <point x="41.25" y="689.0" />
-      <point x="92.09015151515155" y="689.0" />
-      <point x="92.09015151515155" y="97.0" />
-      <point x="223.08313656040923" y="97.0" />
+      <point x="77.00000000000011" y="689.0" />
+      <point x="77.00000000000011" y="97.0" />
+      <point x="274.3750000000001" y="97.0" />
       <point x="-57.375" y="38.5" />
     </edge>
-    <edge source="Shorty" target="MoneyActions">
-      <point x="88.90909090909093" y="-182.0" />
-      <point x="433.43238882329774" y="912.0" />
-      <point x="710.3331365604092" y="912.0" />
-      <point x="0.0" y="38.0" />
+    <edge source="Main" target="CashBalance">
+      <point x="64.28571428571422" y="-27.0" />
+      <point x="984.821645021645" y="1336.0" />
+      <point x="1119.4520857929947" y="1336.0" />
+      <point x="1119.4520857929947" y="234.0" />
+      <point x="715.9914698937426" y="234.0" />
+      <point x="73.60000000000002" y="38.5" />
+    </edge>
+    <edge source="Shorty" target="Locations">
+      <point x="118.5454545454545" y="-182.0" />
+      <point x="549.5348583234945" y="892.0" />
+      <point x="883.5000000000001" y="892.0" />
+      <point x="-60.0" y="71.5" />
+    </edge>
+    <edge source="Main" target="Locations">
+      <point x="0.0" y="-27.0" />
+      <point x="920.5359307359308" y="1336.0" />
+      <point x="934.98940377804" y="1336.0" />
+      <point x="934.98940377804" y="912.0" />
+      <point x="1003.5000000000001" y="912.0" />
+      <point x="60.0" y="71.5" />
+    </edge>
+    <edge source="Shorty" target="GiganticPlantSociety">
+      <point x="59.27272727272725" y="-182.0" />
+      <point x="490.26213105076727" y="912.0" />
+      <point x="469.8914698937426" y="912.0" />
+      <point x="469.8914698937426" y="689.0" />
+      <point x="567.4520857929947" y="689.0" />
+      <point x="-88.5" y="171.0" />
+    </edge>
+    <edge source="GiganticPlantSociety" target="CashBalance">
+      <point x="0.0" y="-171.0" />
+      <point x="655.9520857929947" y="244.0" />
+      <point x="642.3914698937426" y="244.0" />
+      <point x="0.0" y="38.5" />
     </edge>
     <edge source="Locations" target="java.lang.Enum">
       <point x="0.0" y="-71.5" />
-      <point x="934.3331365604092" y="689.0" />
-      <point x="992.4323888232977" y="689.0" />
+      <point x="943.5000000000001" y="689.0" />
+      <point x="996.9520857929947" y="689.0" />
       <point x="61.0" y="182.5" />
     </edge>
+    <edge source="Shorty" target="StatusActions">
+      <point x="-88.90909090909088" y="-182.0" />
+      <point x="342.08031286894914" y="882.0" />
+      <point x="175.5000000000001" y="882.0" />
+      <point x="175.5000000000001" y="244.0" />
+      <point x="327.92878787878794" y="244.0" />
+      <point x="-51.0" y="38.0" />
+    </edge>
+    <edge source="Shorty" target="StocksActions">
+      <point x="88.90909090909088" y="-182.0" />
+      <point x="519.8984946871309" y="882.0" />
+      <point x="612.8914698937426" y="882.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Main" target="GiganticPlantSociety">
+      <point x="42.85714285714289" y="-27.0" />
+      <point x="963.3930735930737" y="1326.0" />
+      <point x="1055.0" y="1326.0" />
+      <point x="1055.0" y="669.0" />
+      <point x="744.4520857929947" y="669.0" />
+      <point x="88.5" y="171.0" />
+    </edge>
+    <edge source="GiganticPlantSociety" target="StatusActions">
+      <point x="-78.66666666666674" y="-171.0" />
+      <point x="577.285419126328" y="224.0" />
+      <point x="429.92878787878794" y="224.0" />
+      <point x="51.0" y="38.0" />
+    </edge>
+    <edge source="Shorty" target="CashBalance">
+      <point x="29.636363636363626" y="-182.0" />
+      <point x="460.62576741440364" y="912.0" />
+      <point x="446.5000000000001" y="912.0" />
+      <point x="446.5000000000001" y="244.0" />
+      <point x="605.5914698937427" y="244.0" />
+      <point x="-36.799999999999955" y="38.5" />
+    </edge>
+    <edge source="Main" target="BankBalance">
+      <point x="-64.28571428571422" y="-27.0" />
+      <point x="856.2502164502166" y="1336.0" />
+      <point x="95.79299488390382" y="1336.0" />
+      <point x="95.79299488390382" y="912.0" />
+      <point x="27.5" y="912.0" />
+      <point x="-55.0" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="BankBalance">
+      <point x="-148.18181818181813" y="-182.0" />
+      <point x="282.8075855962219" y="902.0" />
+      <point x="82.5" y="902.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="MoneyActions">
+      <point x="-59.27272727272725" y="-182.0" />
+      <point x="371.71667650531276" y="872.0" />
+      <point x="300.0000000000001" y="872.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Main" target="Shorty">
+      <point x="-42.85714285714289" y="-27.0" />
+      <point x="877.678787878788" y="1326.0" />
+      <point x="349.48940377804" y="1326.0" />
+      <point x="-81.5" y="182.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Enum">
+      <point x="-61.0" y="182.5" />
+      <point x="874.9520857929947" y="649.0" />
+      <point x="793.9520857929947" y="649.0" />
+      <point x="793.9520857929947" y="446.5" />
+      <point x="-122.0" y="-0.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.4589041095890411" x="527.0" y="720.0" />
+  <settings layout="Hierarchic Group" zoom="0.4589041095890411" x="527.0" y="710.0" />
   <SelectedNodes>
     <node>Balance</node>
   </SelectedNodes>
