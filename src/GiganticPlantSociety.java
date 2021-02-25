@@ -16,9 +16,9 @@ public class GiganticPlantSociety implements StatusActions{
         System.out.println("> Офис ОГР №" + uID + " открыт");
     }
 
-    protected static void setPrices(double _stockPriceForBying, double _stockPriceForSale){
-        stockPriceForBuying = _stockPriceForBying;
-        stockPriceForSell = _stockPriceForSale;
+    protected static void setPrices(double stockPriceForBying, double stockPriceForSale){
+        GiganticPlantSociety.stockPriceForBuying = stockPriceForBying;
+        GiganticPlantSociety.stockPriceForSell = stockPriceForSale;
         System.out.println("> Общество Гигантский Растений установило цены на акции:");
         System.out.println("Цена для покупки = " + stockPriceForBuying + " | Цена для продажи = " + stockPriceForSell);
     }
